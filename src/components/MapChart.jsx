@@ -36,20 +36,20 @@ const MapChart = ({ setTooltipContent, onMouseLeave }) => {
               style={{
                 default: {
                   fill: geo.properties.VISITED ? '#C4B7A0' : '#FEEFD8',
-                  outline: '#A28A6D',
-                  stroke: '#A28A6D',
+                  outline: '#EEDDC4',
+                  stroke: '#EEDDC4',
                   strokeWidth: 0.5,
                 },
                 hover: {
                   fill: geo.properties.VISITED ? '#B29F85' : '#DACBB2',
-                  outline: '#A28A6D',
-                  stroke: '#A28A6D',
+                  outline: '#EEDDC4',
+                  stroke: '#EEDDC4',
                   strokeWidth: 0.5,
                 },
                 pressed: {
                   fill: geo.properties.VISITED ? '#B29F85' : '#DACBB2',
-                  outline: '#A28A6D',
-                  stroke: '#A28A6D',
+                  outline: '#EEDDC4',
+                  stroke: '#EEDDC4',
                   strokeWidth: 0.5,
                 },
               }}
