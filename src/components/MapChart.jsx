@@ -30,8 +30,9 @@ const MapChart = ({ setTooltipContent, onMouseLeave }) => {
                 setTooltipContent(event, NAME);
               }}
               onMouseLeave={onMouseLeave}
-              onClick={() => {
-                setTooltipContent('');
+              onClick={(event) => {
+                const { NAME } = geo.properties;
+                setTooltipContent(event, NAME);
               }}
               style={{
                 default: {
