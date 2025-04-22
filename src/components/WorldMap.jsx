@@ -26,7 +26,7 @@ const WorldMap = () => {
 
   return (
     <main className='min-h-dvh relative'>
-      <div ref={mapRef} className='w-full h-full flex justify-center'>
+      <div ref={mapRef}>
         <MapChart
           setTooltipContent={handleMouseEnter}
           onMouseLeave={handleMouseLeave}

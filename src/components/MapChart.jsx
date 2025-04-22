@@ -17,7 +17,7 @@ const MapChart = ({ setTooltipContent, onMouseLeave }) => {
       viewBox='0 0 800 410'
       data-tip=''
       projection={projection}
-      className='absolute max-h-full'
+      className='absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 size-full'
     >
       <Geographies geography='/features.json'>
         {({ geographies }) =>
