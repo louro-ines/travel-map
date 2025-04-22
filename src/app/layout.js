@@ -17,7 +17,7 @@ export const metadata = {
   openGraph: {
     title: 'World Trip',
     description: "All the countries we've visited",
-    // url: '', // TODO
+    url: 'https://hiworldtrip.netlify.app',
     siteName: 'World Trip',
     images: [
       {

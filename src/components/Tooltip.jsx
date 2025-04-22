@@ -5,7 +5,7 @@ export const Tooltip = ({ children, tooltipText, position }) => {
     <div className='relative inline-block'>
       {children}
       <div
-        className='absolute bg-white/90 text-black/80 text-sm rounded py-1 px-2 transition-opacity duration-300 pointer-events-none'
+        className='absolute bg-white/90 text-black/80 text-xs whitespace-nowrap rounded py-1 px-2 transition-opacity duration-300 pointer-events-none'
         style={{
           top: position.y,
           left: position.x,
