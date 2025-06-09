@@ -9615,7 +9615,8 @@
             "ISO_A3": "AUS",
             "CONTINENT": "Oceania",
             "REGION_UN": "Oceania",
-            "SUBREGION": "Australia and New Zealand"
+            "SUBREGION": "Australia and New Zealand",
+            "VISITED": true
           }
         },
         {
